@@ -1,0 +1,55 @@
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/container.css");
+@import url("components/card.css");
+
+body { 
+
+}
+s
+
+h1 { 
+   font-family:  Arial;
+   font-size: 50px;
+   padding: 50px 5%;
+   color: white;
+}
+
+h2 {  
+   font-family: Arial, sans-serif; 
+   font-size: 20px;
+   margin-bottom: 30px;
+}
+
+h3 { 
+    font-family:  Arial, sans-serif; 
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+
+@media (max-with: 960px)
+{   .container, .container2
+	{width: 700px;}   
+}
+
+@media (max-with:720px)
+{   .container, .container2
+	{width: 500px;}   
+}
+
+@media (max-width: 540px)
+{
+	.container,  .container2
+	{width: 300px;}
+}
+
+a {
+	color: grey;
+	text-decoration: none;
+}
+
+
+@media only screen and (max-width: 949px) and (min-width: 550px), 
+only screen and (max-width: 1449px) and (min-width: 950px), only screen and (min-width: 1450px)

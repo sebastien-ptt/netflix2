@@ -1,0 +1,44 @@
+.container1 { 
+	background-color: black;
+  border-bottom: 8px solid #222;
+  color: white;
+  display: flex;
+  flex-basis: auto;
+  padding: 60px;
+  align-items: center;
+  max-height: 480px;
+  justify-content: space-between;
+}
+
+
+.container2 { 
+	background-color: black;
+  border-bottom: 8px solid #222;
+  color: white;
+  align-items: flex-start;
+  padding: 30px;
+  display: block;
+  font-family: Arial;
+}
+
+.container1 h1, .container2 h1 {
+  font-family:  Arial;
+  font-weight: bold;
+  font-size: 39px;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.container1 h2, .container2 h2 {  
+  font-family: Arial, sans-serif; 
+  font-size: 30px;
+}
+
+.container1 h3, .container2 h3 { 
+  font-family: Arial, sans-serif; 
+  font-size: 20px;
+}
+
+ul { 
+list-style: none;
+}
